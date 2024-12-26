@@ -1,0 +1,57 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	overflow-x: hidden;
+	padding: 32px 16px;
+	box-sizing: border-box;
+}
+h1 {
+	font-size: 3rem;
+	font-family: Lucida San;
+	margin-bottom: 30px;
+}
+li {
+	list-style-type: none;
+}
+h2 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 2rem;
+}
+img {
+	width: 100%;
+	max-width: 100%;
+}
+
+input {
+	margin: 0 auto;
+	width: 70%;
+	height: 50px;
+	padding-left: 20px;
+	border-radius: 12px;
+	border: 1px solid grey;
+}
+
+input:focus {
+	border: 1px solid grey;
+	outline: 2px solid grey;
+}
+
+button {
+	background-color: black;
+	color: white;
+	width: 30%;
+	height: 50px;
+	border-radius: 12px;
+}
+.search {
+	display: flex;
+	gap: 5px;
+}
+.recipe {
+	display: flex;
+	flex-direction: column;
+}
