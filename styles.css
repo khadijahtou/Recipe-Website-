@@ -15,6 +15,7 @@ h1 {
 }
 li {
 	list-style-type: none;
+	text-align: center;
 }
 h2 {
 	margin-top: 20px;
@@ -24,6 +25,7 @@ h2 {
 img {
 	width: 100%;
 	max-width: 100%;
+	height: 250px;
 }
 
 input {
@@ -47,6 +49,9 @@ button {
 	height: 50px;
 	border-radius: 12px;
 }
+span {
+	font-size: 1.5rem;
+}
 .search {
 	display: flex;
 	gap: 5px;
@@ -54,4 +59,19 @@ button {
 .recipe {
 	display: flex;
 	flex-direction: column;
+}
+.recipe-list {
+	gap: 16px;
+	display: grid;
+	grid-template-columns: 1fr;
+}
+.recipe-card {
+	border: 1px solid gray;
+	border-radius: 12px;
+	padding-bottom: 10px;
+}
+
+.recipe-card img {
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
 }
