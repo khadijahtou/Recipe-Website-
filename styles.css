@@ -113,3 +113,60 @@ a{
 /* .recipe-content img{
 	border-radius: 12px; */
 
+	@media (min-width: 600px) {
+		body {
+			padding: 40px 24px;
+			grid-template-rows: auto 3fr auto;
+			/* gap: 20px; */
+		}
+	
+		h1 {
+			font-size: 2.5rem;
+			text-align: center;
+		}
+	
+		h2 {
+			font-size: 1.8rem;
+		}
+	
+	p{
+		font-size: 1.7rem;
+	}
+	ul{
+		font-size: 1.2rem;
+	}
+		input {
+			width: 80%;
+			height: 45px;
+		}
+	
+		button {
+			width: 40%;
+		}
+	
+		.recipe-list {
+			grid-template-columns: repeat(3, 1fr); /* Two columns on tablets*/
+			gap: 24px;
+		}
+	
+		.recipe-card {
+			padding: 16px;
+			display: grid;
+			grid-template-columns: 2fr;
+		}
+	
+		.recipe-card img {
+			height: 200px;
+		}
+	
+		.card-content {
+			gap: 16px;
+		}
+	
+		.ingredient-list {
+			gap: 0px;
+		}
+		.recipe-content{
+			grid-template-columns: 1fr 1fr;
+		}
+	}
