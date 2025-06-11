@@ -1,8 +1,8 @@
-# Recipe Finder
+# Ocean Of Recipe
 
 Overview
 
-Recipe Finder is a simple web application that allows users to search for recipes and view detailed instructions for cooking their favorite meals. The app fetches recipe data from TheMealDB API and dynamically displays the results.
+Ocean of Recipe is a simple web application that allows users to search for recipes and view detailed instructions for cooking their favorite meals. The app fetches recipe data from TheMealDB API and dynamically displays the results.
 
 Features
 
@@ -17,12 +17,12 @@ Fully responsive design for mobile and desktop users
 Project Structure
 
 recipe-finder/
-│-- index.html        # Homepage with search functionality
-│-- recipe.html       # Recipe details page
-│-- index.js          # JavaScript for handling search and fetching recipes
-│-- recipe.js         # JavaScript for displaying recipe details
-│-- styles.css        # Styling for the entire project
-│-- README.md         # Project documentation
+│-- index.html # Homepage with search functionality
+│-- recipe.html # Recipe details page
+│-- index.js # JavaScript for handling search and fetching recipes
+│-- recipe.js # JavaScript for displaying recipe details
+│-- styles.css # Styling for the entire project
+│-- README.md # Project documentation
 
 Installation
 
@@ -69,3 +69,6 @@ Implement category-based recipe search
 License
 
 This project is open-source and available under the MIT License.
+
+# loom Link :
+# Render Link : http://ocean-of-recipes.onrender.com
